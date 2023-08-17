@@ -1,0 +1,94 @@
+.root {
+  display: grid;
+  grid-template-areas:
+    "navbar"
+    "main"
+    "footer";
+}
+
+.navbar {
+  grid-area: navbar;
+  background-color: rgb(45, 45, 45);
+}
+
+.navbar .container-fluid .nav li a:hover {
+  color: white !important;
+}
+
+.container-fluid {
+  padding-right: 7rem;
+  padding-left: 7rem;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.d-flex {
+  background-color: rgb(222, 227, 234);
+  height: 45vh;
+  border-radius: 7px;
+}
+
+.h1 {
+  font-weight: 400;
+}
+
+.welcome_text {
+  font-weight: 300;
+}
+
+.main {
+  grid-area: main;
+  padding-bottom: 1em;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-text {
+  font-size: 0.7em;
+  padding: 0.5em;
+}
+
+.btn-primary {
+  font-size: 0.8em;
+}
+
+.card-body {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-footer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer {
+  height: 10vh;
+  background-color: rgb(45, 45, 45);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer_text {
+  color: white;
+  font-size: 0.7em;
+}
